@@ -1,0 +1,71 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+
+    <meta charset="UTF-8">
+
+    <title>cv2</title>
+
+
+
+    <link href="../static/css/diseño.css" th:href="@{/css/diseño.css}" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+
+<img src="../../../../../perfil.jpg"/>
+<div class="container">
+    <div class="header"><a href="#"><img src="../imagenes/perfil.jpg" alt="Insert Logo Here" name="Insert_logo" width="189" height="178" id="Insert_logo" style="background: #C6D580; display:block;" /><center><h1><center>CURRICULUM VITAE </center></h1></center></a>
+        <!-- end .header --></div>
+    <div class="sidebar1">
+        <h6>&nbsp;</h6>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <!-- end .sidebar1 --></div>
+    <div class="content">
+        <h6>________________________________________________________________</h6>
+        <h3>DATOS PERSONALES </h3>
+        <h6>NOMBRE:  <th th:text="${cv2.nombre}"></th></h6>
+        <h6>EDAD:  <th th:text="${cv2.edad }"></th></h6>
+        <h6>FECHA/NACIMIENTO:  <th th:text="${cv2.fechaNacimiento}"> </h6>
+       <!-- <h6>CIUDAD: <th th:text="${cv2.ciudad}"></h6>-->
+        <h6>ESTADO CIVIL:  <th th:text="${cv2.estadoCivil}"></h6>
+        <h6>DIRECCION:  <th th:text="${cv2.direccion}">    </h6>
+        <h6>________________________________________________________________</h6>
+        <h3>FORMACION ACADEMICA </h3>
+        </p>
+        <h6>GRADO DE ESTUDIO:  <th th:text="${cv2.gradoEscolar}"></th></h6>
+        <h6>INSTITUCION:  <th th:text="${cv2.escuela}"></th></h6>
+        <h6>CONOCIMIENTOS :  <th th:text="${cv2.conocimientos}"></th></h6>
+        <h6>IDIOMAS :  <th th:text="${cv2.idiomas}"></th></h6>
+        <p>__________________________________________________________</p>
+        <h3>EXPERIENCIA PROFESIONAL</h3>
+        </p>
+        <h6>EMPRESA:  <th th:text="${cv2.empresa}"></th></h6>
+        <h6>PUESTO:  <th th:text="${cv2.puesto}"></th></h6>
+        <h6>DESCRIPCION DEL PUESTO:  <th th:text="${cv2.descripcion}"></th></h6>
+        <p>__________________________________________________________</p>
+        <h3>* </h3>
+        </p>
+        <p> </p>
+        <p>&nbsp;</p>
+        <!-- end .content --></div>
+    <div class="sidebar2">
+        <h4>&nbsp;</h4>
+        <!-- end .sidebar2 --></div>
+    <div class="footer">
+        <p></p>
+        <!-- end .footer --></div>
+    <!-- end .container --></div>
+</body>
+</html>
